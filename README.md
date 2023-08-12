@@ -26,3 +26,8 @@ export default function Home() {
   );
 }
 ```
+
+When unmounted, it works as expected, but if the browser is reloaded or the tab is closed, the cleanup function is not called.
+
+https://github.com/9concepts/nextjs-cleanup-experiment/assets/31821663/254169b1-b7db-418e-b357-3331405ffd60
+
